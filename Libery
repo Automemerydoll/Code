@@ -1,0 +1,11 @@
+def pow(W,D):
+    power=((W**2)*D)/1000
+    return power
+
+def Energy(S,T):
+    energy=S*T
+    return energy
+
+def Pay(P,B):
+    pay=P*B
+    return pay
