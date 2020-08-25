@@ -1,0 +1,16 @@
+import Libery
+x=0
+z=0
+y=0
+W=float(input("กระแส :"))
+D=float(input("ค่าความต้านทาน :"))
+x=Libery.pow(W,D)
+print("กำลัง = ",x)
+
+T=float(input("เวลา:"))
+z=Libery.Energy(x,T)
+print("พลังงาน = ",z)
+
+B=float(input("ค่าพลังงานไฟฟ้า :"))
+y=Libery.Pay(z,B)
+print("ค่าไฟ = ",y," บาท")
